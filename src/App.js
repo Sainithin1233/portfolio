@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <HashRouter>
+      {/* <HashRouter> */}
         <Routes>
           <Route path="/" element={<Home />} ></Route>
           <Route path="/about" element={<About />} ></Route>
@@ -19,7 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} ></Route>
           <Route path="/skills" element={<Skills />} ></Route>
         </Routes>
-      </HashRouter>
+      {/* </HashRouter> */}
     </div>
   );
 }

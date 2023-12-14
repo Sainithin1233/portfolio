@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../assets/photo.JPG';
+import profile from '../assets/photo.JPG';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -11,7 +11,7 @@ export const About = () => {
             <div className='flex flex-col sm:flex-row'>
                 <div className='p-20'>
                     <img
-                        src={photo}
+                        src={profile}
                         alt='image not found'
                         className='mx-auto my-10 h-64 w-48 rounded-lg'
                     />
