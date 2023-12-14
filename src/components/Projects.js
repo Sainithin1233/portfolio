@@ -33,7 +33,7 @@ export const Projects = () => {
     },
   ]
   return (
-    <div className='bg-gray-700 px-20'>
+    <div className='bg-gray-700 sm:px-20'>
       <h1 className="text-gray-100 font-bold text-4xl px-10 py-5 underline">PROJECTS</h1>
         {projects.map((project) => (
           <div className='flex flex-col lg:flex-row p-4'>

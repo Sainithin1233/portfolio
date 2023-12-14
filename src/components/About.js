@@ -16,7 +16,7 @@ export const About = () => {
                         className='mx-auto my-10 h-64 w-48 rounded-lg'
                     />
                 </div>
-                <div className='px-10 py-20 w-3/4'>
+                <div className='px-10 py-20 sm:w-3/4'>
                     <div className='text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl'>
                         <h1>SAI NITHIN</h1>
                     </div>
